@@ -1,0 +1,32 @@
+Here are some coding questions related to CRUD operations using JPA and Hibernate:
+
+Question 1: Entity Definition
+
+Define a JPA entity class named Employee with the following attributes:
+
+id: Long (Primary Key)
+name: String
+age: int
+salary: double
+Question 2: Repository Interface
+
+Create a Spring Data JPA repository interface for the Employee entity named EmployeeRepository.
+
+Question 3: Service Method
+
+Implement a service method named updateEmployeeName in the EmployeeService class. This method should take two parameters: employeeId (Long) and newName (String), and update the name of the employee with the given ID.
+
+Question 4: Controller Endpoint
+
+Develop a controller endpoint to retrieve all employees sorted by their salary in descending order. The endpoint should return a JSON array of Employee objects.
+
+Question 5: Unit Test
+
+Write a unit test for the createEmployee method in the EmployeeService class. Ensure that the method properly saves a new employee to the database.
+
+These questions aim to test various aspects of CRUD operations using JPA and Hibernate, including entity definition, repository usage, service layer logic, controller endpoints, and unit testing.
+
+
+
+
+
